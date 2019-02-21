@@ -1,0 +1,141 @@
+/*overall style rules*/
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*header rules*/
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  display: flex;
+  background-color: black;
+  top: 0;
+  align-items: center;
+}
+nav {
+  display: inline-block;
+  padding-right: 10px;
+  z-index: 1;
+}
+nav a {
+  color: seashell;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+span {
+  color: inherit;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: inline-block;
+}
+.logo {
+  margin-left: 10px;
+  display: flex;
+  flex-grow: 1;
+}
+.logo img {
+  height: 50px
+}
+
+/*main section rules*/
+.main {
+  padding-top: 63px;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+/*mission rules*/
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.black-stripe {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 1200px;
+}
+.black-stripe h4, .black-stripe h2 {
+  margin: 7px auto;
+}
+
+/*featured rules*/
+#featured {
+  margin-top: 50px;
+}
+.image-title {
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 12.5px;
+  margin-right: 12.5px;
+}
+#featured img {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 12.5px;
+  margin-right: 12.5px;
+  width: 300px;
+  height: 200px;
+}
+.flex-line {
+  display: flex;
+  justify-content: center;
+}
+
+/*locations rules*/
+#locations {
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+#locations h2 {
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+.box {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0px 20px;
+  background: black;
+  opacity: 1;
+}
+.box h3, span {
+  margin: 0px auto;
+}
+.flex-container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*contact rules*/
+#contact {
+  height: 200px;
+}
+
+/*footer rules*/
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
